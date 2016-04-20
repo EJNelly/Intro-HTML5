@@ -15,3 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+echo Week-1-Recipes > index.html
+git add index.html
+git commit -a -m Intro-HTML5
+git push origin gh-pages
